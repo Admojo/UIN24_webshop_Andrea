@@ -4,8 +4,8 @@ console.log(products)
 
 let productsHTML ="<h2>Ninjago</h2>"
 
-products.map(product => productsHTML += `  
-<article>
+products.map(product => productsHTML += 
+`<article>
 <img src="website_images/PROD_${product.imagefile}" alt="${product.title}" />
 <a href="#"> ${product.category}</a>
 <h3>${product.title}</h3>
